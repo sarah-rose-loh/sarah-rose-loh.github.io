@@ -3,15 +3,48 @@ body {
   font-family: garamond;
   }
 
-  h1, h2, p, li {
+h1 {
+  font-family: sans-serif;
+  font-size: 38px
+  width: 100%;
+  background: rgb(33,84,95,0);
+}
+
+  h2, p,{
     color: #333;
   }
+
+li {
+  
+  color: #fff;
+  font-weight: normal;
+  padding: 15px 10px 0 0;
+  
+}
+
+.current-entry {
+  font-family: 'Josefin Slab', serif;
+  padding: 10px 5px 5px 5px;
+  background: #33BEBE 
+  width: 8.33%
+}
+
+.blog-entry {
+
+  font-family: 'Josefin Slab', serif;
+  padding: 10px 5px 5px 5px;
+  background: #33BEBE 
+  width: 8.33%
+
+}
 
   p {
     background:  #333;
     color: #999;
     padding: 5px 5px 5px 5px;
   }
+
+
 
 .grid{
   margin: 0 auto;
