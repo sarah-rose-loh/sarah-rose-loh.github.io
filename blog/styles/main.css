@@ -1,17 +1,18 @@
 .top {
     position:absolute;
     left:0; right:0;
-    height: 92px;
+    height: 200px;
     background: black;
 }
-.left {
-    position:absolute;
-    left:0; top:92px; bottom: 0;
+.sidebar {
+    position: relative;
+    left:20px; top:220px; bottom: 0;
     width: 178px;
 }
-.main {
+
+.content {
     position: absolute;
-    left:178px; top:92px; right:0; bottom:0;
+    left:280px; top:220px; right:100px; bottom:0;
 }
 
 body { 
@@ -27,7 +28,7 @@ h1 {
   font-weight: 500;
   line-height: 26.4px;
   color: #00FF00;
-  padding-left: 20px
+  padding: 20px 20px 20px 20px;
 }
 
   h2, p,{
