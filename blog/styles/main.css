@@ -1,95 +1,64 @@
-.header {
-  display: flex; flex-wrap: wrap;
-}
-
-* {
-    border: 1px solid black !important;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-@media only screen and (max-width: 500px) {
-  .content {
-    display:none
+ html {
+  margin: 0;
+  padding: 0;
   }
+
+ body {
+      background-image: url(../images/wood.jpg);
+      }
+
+.header{
+ background-image: url(../images/paper-texture.jpg);
+ display: flex; flex-wrap: wrap; overflow: auto;
+
 }
 
-.top {
-    position:absolute;
-    left:0; right:0;
-    height: 200px;
-    background: black;
+.heading-button {
+color: #8B4513;
+padding: 20px 20px 20px 20px;
+font: normal 1.4em georgia, sans-serif;
+
 }
+
+  h1 {
+
+  color: #FFF8DC;
+  padding: 20px px 20px 20px;
+  font-weight: 500;
+}
+
 .sidebar {
     position: relative;
-    left:20px; top:220px; bottom: 0;
+    padding:left: 0%; top:20%; bottom: 10%;
     width:  16.66%;
+    background-image: 
+}
+
+.current-entry {
+  padding: 10px;
+  font: italic normal 1.4em georgia, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #DEB887;
+
+ }
+
+.blog-entry {
+  padding: 10px;
+  font: italic normal 1.4em georgia, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #FFF8DC;
 }
 
 .content {
     position: absolute;
     left:20%; top:220px; right:100px; bottom:0;
     width: 75%;
-}
-
-.main-body {
-    display: flex;
-}
-
-body { 
-  background:#777;
-  font-family: garamond;
-  }
-
-h1 {
-  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-  font-size: 45px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 50px;
-  color: #00FF00;
-  padding: 20px 20px 20px 20px;
-}
-
-  h2, p,{
-    color: #333;
-  }
-
-li {
-  
-    background:  #333;
-    color: #999;
-  
-  
-}
-
-.current-entry {
-  padding: 10px;
-  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-  font-size: 30px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #00FF00;
-
- }
-
-.blog-entry {
-  padding: 10px;
- font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-  font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #00FF00;
-
-  
 }
